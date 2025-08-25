@@ -24,5 +24,3 @@ while attempt < 3:
         print("Access denied")
    attempt = attempt + 1
 print("your attempt number is: ", attempt)
-
-print("hi")
