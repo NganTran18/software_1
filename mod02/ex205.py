@@ -12,4 +12,4 @@ kilogram = total // 1000
 gram = total % 1000
 
 print("The weight in modern units: ", kilogram, "kilogram", "and", gram, "gam "  )
-print(f"The weight in modern units: {kilogram}, kiolgram and {gram:.2f} gram")
+print(f"The weight in modern units: {kilogram}, kilogram and {gram:.2f} gram")
