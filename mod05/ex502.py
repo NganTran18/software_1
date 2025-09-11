@@ -12,7 +12,6 @@ while True:
 number.sort(reverse=True)
 
 descending = number[:5]
-
 print("Five greatest numbers sorted in descending order: ")
 
 for item in number:

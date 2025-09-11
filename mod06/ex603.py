@@ -1,4 +1,5 @@
 import math
+
 def a():
     gasolin = float(input("Gasolin(gallon): "))
     if gasolin > 0:

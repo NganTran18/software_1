@@ -14,5 +14,4 @@ def a():
         if result == sides:
             print("You gets the maximum number on the dice!")
             break
-
 a()

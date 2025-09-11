@@ -7,7 +7,6 @@ def unit_price_pizza(diameter, price):
     a_pizza = price / area_pizza
     return a_pizza
 
-
 def a():
     diameter1 = float(input("What is the diameter for the pizza 1(cm): "))
     price1 = float(input("what is the prices pizza 1: "))
