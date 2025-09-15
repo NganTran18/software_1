@@ -8,13 +8,12 @@ connection = mysql.connector.connect(
          password='1111',
          autocommit=True
          )
-
-def a(x):
-    sql = f"select name, municipality from airport where ident = '{x}'"
+def a(code):
+    sql = f"select name,type from airport where iso_country = '{code}' order by type"
     cursor = connection.cursor()
     cursor.execute(sql)
     result = cursor.fetchall()
     return print(result)
 
-user = input("Enter ICAO code of an airport: ")
-a(user)
+airport = input("enter area code: ")
+a(airport)
