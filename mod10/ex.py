@@ -44,7 +44,6 @@ class Building:
         for i in self.elevators:
             i.go_to_floor(self.bottom)
 
-
 h = Elevator(1, 10 )
 h.go_to_floor(5)
 h.go_to_floor(1)
